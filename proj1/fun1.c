@@ -1,4 +1,4 @@
-#include "uhead.h"
+#include "myhead.h"
 
 struct arg op(int *a,int n){
 	struct arg mynum;
