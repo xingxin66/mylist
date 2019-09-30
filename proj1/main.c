@@ -18,7 +18,7 @@ int main(){
 	gettimeofday(&tv1,&tz);
 	printf("tv_sec;%d\n",tv1.tv_sec);
 	printf("tv_usec;%d\n",tv1.tv_usec);
-	qsort(data,UNUM,sizeof(int));
+	qsort(data,UNUM,sizeof(int),compar);
 	printf("tz_minuteswest;%d\n",tz.tz_minuteswest);
 	printf("tz_dsttime,%d\n",tz.tz_dsttime);
 	gettimeofday(&tv2,&tz);

@@ -8,6 +8,6 @@ struct arg op(int *a,int n){
 	for(i=0;i<n;i++){
 	mynum.sum=a[i]+mynum.sum;
 }
-	mynum.ave=mysum/n;
+	mynum.ave=mynum.sum/n;
 	return mynum;
 };
